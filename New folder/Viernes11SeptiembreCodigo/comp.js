@@ -92,7 +92,7 @@ const followerStats = [
       this.setAttribute("statusPercentage", value);
     }
   
-    static get observedAttribute() {
+    static get observedAttributes() {
       return [
         "icon",
         "accountName",
